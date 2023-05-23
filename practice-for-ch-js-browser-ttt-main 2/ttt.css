@@ -2,9 +2,9 @@
 
 ul {
     display: flex;
-    width: 305px;
+    width: 310px;
     flex-wrap: wrap;
-    margin-left: 41%;
+    margin-left: 35%;
 }
 
 li {
