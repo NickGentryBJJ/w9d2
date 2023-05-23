@@ -7,19 +7,15 @@ class View {
   
   setupBoard() {
     const board = document.createElement("ul");
-    for (let i = 0; i < 10; i++) {
-      let position = document.createElement("li");
       for (let row = 0; row < 3; row++) {
         for (let col = 0; col < 3; col++) {
+          const position = document.createElement("li");
           position.setAttribute("pos", [row, col])
+          board.append(position);
           
         }
         
-      }
-      
-      board.appendChild(position);
-    
-      this.el.appendChild(board);
+      this.el.append(board);
     }
 
     

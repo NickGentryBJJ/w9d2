@@ -14,5 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.View = View
   window.newGame = newGame
+  window.newView = newView
 });
 

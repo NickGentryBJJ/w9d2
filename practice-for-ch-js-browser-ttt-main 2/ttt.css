@@ -2,4 +2,39 @@
 
 ul {
     display: flex;
+    width: 305px;
+    flex-wrap: wrap;
+    margin-left: 41%;
 }
+
+li {
+    display: flex;
+    width: 100px; 
+    height: 100px;
+    background-color: rgb(86, 107, 228);
+    border: 1px solid rgb(7, 6, 6);
+
+}
+
+li:hover {
+    background-color: rgb(166, 237, 133);
+}
+
+h1 {
+    color:rgb(114, 40, 144);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+/* html, body, figure, figcaption, ul, li, h1 {
+    /* margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-align: inherit; */
+/*
