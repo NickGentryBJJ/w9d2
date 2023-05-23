@@ -6,7 +6,6 @@ const Game = require("../ttt_node/game.js");
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Your code here
+  const newGame = new Game()
 });
 
-// const newGame = new Game()
